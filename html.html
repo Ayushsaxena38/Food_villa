@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id = "root"></div>
+</body>
+<script>
+// how we create an heading in plain javascript
+
+const heading = document.createElement("h1");
+heading.innerText = "Namastey React!"
+console.log("heading =>",heading);
+const root = document.getElementById("root");
+root.appendChild(heading)
+
+root.addEventListener('click',(e)=>{console.log("clicked :- ",e)})
+
+</script>
+</html>
