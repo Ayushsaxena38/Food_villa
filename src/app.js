@@ -111,17 +111,17 @@ const appRouter = createBrowserRouter([
   },
 ]);
 //web socket code//---------------------------//
-import { io } from 'socket.io-client';
+// import { io } from 'socket.io-client';
 
-const socket = io('http://localhost:2000');
-socket.emit('join', 'user123');
-socket.on('connect', () => {
-  console.log('Connected to WebSocket server');
-});
-socket.on('notification', (data) => {
-  console.log('notification hitted');
-  console.log('Notification received:', data);
-});
+// const socket = io('http://localhost:2000');
+// socket.emit('join', 'user123');
+// socket.on('connect', () => {
+//   console.log('Connected to WebSocket server');
+// });
+// socket.on('notification', (data) => {
+//   console.log('notification hitted');
+//   console.log('Notification received:', data);
+// });
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<RouterProvider router={appRouter} />);
