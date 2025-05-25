@@ -1,10 +1,13 @@
 {
+  "homepage":"https://ayushsaxena.github.io/Food_villa/",
   "name": "namastey_react_course",
   "version": "1.0.0",
   "description": "learning the basics of react via namastey react course",
   "main": "app.js",
   "scripts": {
     "test": "jest",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d dist",
     "start": "npx parcel html2.html --no-cache",
     "build": "npx parcel build html2.html"
   },
@@ -20,6 +23,7 @@
   },
   "devDependencies": {
     "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.3.0",
     "parcel": "^2.13.3",
     "postcss": "^8.5.1",
     "process": "^0.11.10",
