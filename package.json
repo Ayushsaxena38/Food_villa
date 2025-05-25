@@ -6,7 +6,7 @@
   "scripts": {
     "test": "jest",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist",
+    "deploy": "gh-pages -d dist -r https://github.com/Ayushsaxena38/Food_villa.git",
     "start": "npx parcel html2.html --no-cache",
     "build": "npx parcel build html2.html"
   },
