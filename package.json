@@ -1,9 +1,8 @@
 {
-  "homepage":"https://ayushsaxena.github.io/Food_villa/",
+  "homepage": "https://ayushsaxena.github.io/Food_villa/",
   "name": "namastey_react_course",
   "version": "1.0.0",
   "description": "learning the basics of react via namastey react course",
-  "main": "app.js",
   "scripts": {
     "test": "jest",
     "predeploy": "npm run build",
@@ -15,9 +14,11 @@
   "license": "ISC",
   "dependencies": {
     "@reduxjs/toolkit": "^2.5.1",
+    "@swc/helpers": "^0.5.17",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
     "react-redux": "^9.2.0",
+    "react-router": "^7.6.1",
     "react-router-dom": "^7.1.1",
     "socket.io-client": "^4.8.1"
   },
